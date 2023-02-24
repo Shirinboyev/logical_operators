@@ -10,7 +10,7 @@ Given three integers a, b, c,  check the following statement "The number b is be
         bool: answer
 */
 bool func(int a , int b, int c){
-  return a<b && a<b && c>b && c>a;
+  return a<b || a<b || c>b || c>a;
 }
 
 void main() {
